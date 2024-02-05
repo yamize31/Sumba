@@ -306,3 +306,46 @@ header a{
         font-size: 30px;
     }
 }
+/*article*/
+.container{
+    width: 100%;
+}
+article{
+    background-color: #EEEDEB;
+    width: 100%;
+}
+article h2{
+    margin-top: 20px;
+   margin-left: 30px;
+}
+article h6{
+   margin-left: 30px;
+}
+article p{
+   margin-left: 30px;
+}
+
+article img{
+    position: relative;
+    margin: 10px;
+    width: 450px;
+    height: 500px;
+    left: 20%;
+    display: flex;
+    border-radius: 6px;
+}
+.card-text{
+    box-sizing: content-box;
+}
+.conti{
+    position: relative;
+    left: 500px;
+    bottom: 20px;
+    margin: 50px;
+   display: flex;
+   align-items: center;
+}
+.conti button{
+    border-radius: 7px;
+    margin: 15px;
+}
