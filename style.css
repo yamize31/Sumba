@@ -20,7 +20,8 @@ header{
     z-index: 100;
 }
 header a{
-    color: #000;
+    color: whitesmoke;
+    font-weight: bold;
     margin-right: 40px;
 }
 /* carousel */
@@ -298,7 +299,7 @@ header a{
         opacity: 0;
     }
 }
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 100%) {
     .carousel .list .item .content{
         padding-right: 0;
     }
@@ -306,3 +307,68 @@ header a{
         font-size: 30px;
     }
 }
+/*article*/
+article {
+    background-color: whitesmoke;
+}
+
+.file .pages {
+    position: relative;
+  }
+  
+  .file .pages .tb-1 img {
+    position: absolute;
+    top: 10%;
+    left: 62%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 35%;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .file .pages .tb-2 img {
+    position: absolute;
+    bottom: 5%;
+    right: 45%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .file .pages svg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    width: 70%;
+    height: 70%;
+  }
+  
+  .file .pages .text {
+    color: whitesmoke;
+    font-family: Poppins;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 24px;
+    text-anchor: middle;
+  }
+  
+  @media (max-width: 767px) {
+    .file .pages .tb-1 img {
+      width: 20%;
+      height: 35%;
+      border-radius: 100%;
+    }
+  
+    .file .pages .tb-2 img {
+      width: 20%;
+      height: 30%;
+      border-radius: 50%;
+    }
+  }
+  
+
